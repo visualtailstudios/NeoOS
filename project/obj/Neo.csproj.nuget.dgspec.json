@@ -10,11 +10,11 @@
         "projectUniqueName": "/media/charlie/ANGELA/Clones/NeoLinux/NeoLinux/project/Neo.csproj",
         "projectName": "Neo",
         "projectPath": "/media/charlie/ANGELA/Clones/NeoLinux/NeoLinux/project/Neo.csproj",
-        "packagesPath": "/root/.nuget/packages/",
+        "packagesPath": "/home/charlie/.nuget/packages/",
         "outputPath": "/media/charlie/ANGELA/Clones/NeoLinux/NeoLinux/project/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "/home/charlie/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
