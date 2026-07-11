@@ -8,7 +8,19 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Microsoft.ML.OnnxRuntimeGenAI" Version="0.5.1" />
+        <!-- Reference to local OnnxRuntime GenAI DLL -->
+        <Reference Include="Microsoft.ML.OnnxRuntimeGenAI">
+            <HintPath>/media/charlie/ANGELA/Clones/NeoLinux/NeoLinux/Microsoft.ML.OnnxRuntimeGenAI.dll</HintPath>
+            <Private>True</Private>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Reference>
+
+        <!-- Reference to local base OnnxRuntime DLL -->
+        <Reference Include="Microsoft.ML.OnnxRuntime">
+            <HintPath>/media/charlie/ANGELA/Clones/NeoLinux/NeoLinux/Microsoft.ML.OnnxRuntime.dll</HintPath>
+            <Private>True</Private>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Reference>
     </ItemGroup>
 
 </Project>

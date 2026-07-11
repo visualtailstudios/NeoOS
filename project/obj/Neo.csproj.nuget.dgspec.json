@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/media/charlie/ANGELA/Clones/NeoLinux/project/Neo.csproj": {}
+    "/media/charlie/ANGELA/Clones/NeoLinux/NeoLinux/project/Neo.csproj": {}
   },
   "projects": {
-    "/media/charlie/ANGELA/Clones/NeoLinux/project/Neo.csproj": {
+    "/media/charlie/ANGELA/Clones/NeoLinux/NeoLinux/project/Neo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/media/charlie/ANGELA/Clones/NeoLinux/project/Neo.csproj",
+        "projectUniqueName": "/media/charlie/ANGELA/Clones/NeoLinux/NeoLinux/project/Neo.csproj",
         "projectName": "Neo",
-        "projectPath": "/media/charlie/ANGELA/Clones/NeoLinux/project/Neo.csproj",
-        "packagesPath": "/home/charlie/.nuget/packages/",
-        "outputPath": "/media/charlie/ANGELA/Clones/NeoLinux/project/obj/",
+        "projectPath": "/media/charlie/ANGELA/Clones/NeoLinux/NeoLinux/project/Neo.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/media/charlie/ANGELA/Clones/NeoLinux/NeoLinux/project/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/charlie/.nuget/NuGet/NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -45,18 +45,6 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "dependencies": {
-            "Microsoft.ML.OnnxRuntimeGenAI": {
-              "target": "Package",
-              "version": "[0.5.1, )"
-            },
-            "Microsoft.NET.ILLink.Tasks": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[10.0.9, )",
-              "autoReferenced": true
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -68,16 +56,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
-              "version": "[10.0.9, 10.0.9]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
-              "version": "[10.0.9, 10.0.9]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -358,11 +336,6 @@
             "System.Xml.XPath": "(,4.3.32767]",
             "System.Xml.XPath.XDocument": "(,5.0.32767]"
           }
-        }
-      },
-      "runtimes": {
-        "linux-x64": {
-          "#import": []
         }
       }
     }

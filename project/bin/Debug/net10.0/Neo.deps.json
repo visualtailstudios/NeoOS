@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Neo/1.0.0": {
+        "dependencies": {
+          "Microsoft.ML.OnnxRuntime": "1.20.0.0",
+          "Microsoft.ML.OnnxRuntimeGenAI": "0.0.0.0"
+        },
+        "runtime": {
+          "Neo.dll": {}
+        }
+      },
+      "Microsoft.ML.OnnxRuntime/1.20.0.0": {
+        "runtime": {
+          "Microsoft.ML.OnnxRuntime.dll": {
+            "assemblyVersion": "1.20.0.0",
+            "fileVersion": "1.20.0.0"
+          }
+        }
+      },
+      "Microsoft.ML.OnnxRuntimeGenAI/0.0.0.0": {
+        "runtime": {
+          "Microsoft.ML.OnnxRuntimeGenAI.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Neo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.ML.OnnxRuntime/1.20.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.ML.OnnxRuntimeGenAI/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
